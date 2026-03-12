@@ -1,9 +1,9 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-// import Services from './components/Services';
-// import WhyWealth from './components/WhyWealth';
-// import Projects from './components/Projects';
+import Services from './components/Services';
+import WhyWealth from './components/WhyWealth';
+import Projects from './components/Projects';
 // import CTA from './components/CTA';
 // import Footer from './components/Footer';
 
@@ -12,10 +12,10 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      {/*<Services />
+      <Services />
       <WhyWealth />
       <Projects />
-      <CTA />
+      {/*<CTA />
       <Footer /> */}
     </div>
   );

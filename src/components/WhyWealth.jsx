@@ -6,7 +6,7 @@ const WhyWealth = () => {
     <section className="why-wealth container section-padding text-center">
       <h2 className="section-title">Why Wealth?</h2>
       <p className="section-subtitle">
-        We combine traditional craftsmanship with modern luxury standards.
+        We combine traditional craftsmanship with modern luxury standards. <br />So you could enjoy premium experience.
       </p>
 
       <div className="features-grid">
@@ -17,7 +17,7 @@ const WhyWealth = () => {
             </svg>
           </div>
           <h3>Elite Quality</h3>
-          <p>Only the finest imported materials used.</p>
+          <p>Only the finest best materials used.</p>
         </div>
 
         <div className="feature-item">
@@ -48,7 +48,7 @@ const WhyWealth = () => {
             </svg>
           </div>
           <h3>Expertise</h3>
-          <p>Over 15 years of luxury decor experience.</p>
+          <p>Over 10 years of luxury decor experience.</p>
         </div>
       </div>
     </section>
