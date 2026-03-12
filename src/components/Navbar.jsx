@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
+import headerLogo from '../assets/images/WEALTH LOGO.png';
+import headerLogo2 from '../assets/images/WEALTH LOGO2.png';
 
-// Navbar section providing primary navigation across the site
+//wealth interior and exterior project for my bro skill
+// Navbar section to providing primary navigation across the site
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -9,11 +12,12 @@ const Navbar = () => {
       <div className="container navbar-content">
         {/* Logo left */}
         <div className="navbar-brand">
-          <svg className="brand-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 2L2 22h20L12 2z" fill="var(--primary-color)" />
-            <path d="M12 8l-5 11h10l-5-11z" fill="var(--bg-dark)" />
-          </svg>
-          <span className="brand-text">WEALTH</span>
+          <img src={headerLogo} className="brand-icon" alt="logo" />
+          <span className="brand-text">
+            <img src={headerLogo2} className="brand-text" alt="logo" />
+            {/* below is the brand name text used before creating the logo with coreldraw */}
+            {/* WEALTH */}
+          </span>
         </div>
 
         {/* Desktop Links */}

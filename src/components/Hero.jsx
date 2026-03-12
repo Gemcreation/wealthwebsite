@@ -1,10 +1,12 @@
 import React from 'react';
 
-// Hero section displaying main headline and CTA buttons over a high-quality background
+// wealth Hero section displaying main headline and CTA buttons over a high-quality background
 const Hero = () => {
   return (
     <section id="home" className="hero">
-      <div className="hero-overlay"></div>
+      <div className="hero-overlay">
+        {/* this is use for a dark/black-saturated background overlay */}
+      </div>
       <div className="container hero-content">
         <span className="hero-tag">PREMIUM CRAFTSMANSHIP</span>
         <h1 className="hero-title">
