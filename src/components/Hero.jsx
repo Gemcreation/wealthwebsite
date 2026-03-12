@@ -22,7 +22,7 @@ const Hero = () => {
         </p>
         <div className="hero-buttons">
           <button className="btn btn-primary">View Project</button>
-          <button className="btn btn-secondary">Client Review</button>
+          <button className="btn btn-secondary">Why Wealth</button>
         </div>
       </div>
     </section>

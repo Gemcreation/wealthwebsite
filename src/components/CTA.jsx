@@ -8,7 +8,9 @@ const CTA = () => {
         <div className="cta-content">
           <h2>Ready to elevate your home?</h2>
           <p>Consult with our design experts today and get a personalized estimate.</p>
-          <button className="btn btn-black">Book a Consultation</button>
+          <button className="btn btn-black">
+            Book a Consultation Today
+          </button>
         </div>
       </div>
     </section>
