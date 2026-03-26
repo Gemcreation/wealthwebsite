@@ -49,24 +49,24 @@ const Footer = () => {
         </div>
         
         <div className="footer-social">
-          <a href="https://www.instagram.com/wealth_interiors_and_exterior?igsh=enNxbzJ5Y21yZWJu" target="_blank" className="social-icon">
+          <a href="https://www.instagram.com/wealth_interiors_and_exterior?igsh=enNxbzJ5Y21yZWJu" target="_blank" rel="noreferrer" className="social-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
               <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
               <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
             </svg>
           </a>
-          <a href="https://x.com/MojeedOlamilek2" target="_blank" aria-label="Twitter" className="social-icon">
+          <a href="https://x.com/MojeedOlamilek2" target="_blank" rel="noreferrer" aria-label="Twitter" className="social-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53A4.48 4.48 0 0 0 22.43 1a9 9 0 0 1-2.83 1.08A4.52 4.52 0 0 0 16.11 0c-2.63 0-4.76 2.13-4.76 4.76 0 .37.04.74.12 1.09A12.94 12.94 0 0 1 1.64 1 4.76 4.76 0 0 0 3.1 7.35 4.38 4.38 0 0 1 .96 6.7v.06A4.76 4.76 0 0 0 4.75 11.4a4.52 4.52 0 0 1-2.14.08 4.76 4.76 0 0 0 4.44 3.3A9.06 9.06 0 0 1 0 18.29a12.77 12.77 0 0 0 6.92 2.03c8.3 0 12.84-6.88 12.84-12.84 0-.2 0-.41-.02-.61A9.22 9.22 0 0 0 23 3z"/>
             </svg>
           </a>
-          <a href="https://www.facebook.com/share/1FHCikxPn/" target="_black" aria-label="Facebook" className="social-icon">
+          <a href="https://www.facebook.com/share/1FHCikxPn/" target="_black" rel="noreferrer" aria-label="Facebook" className="social-icon">
              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
             </svg>
           </a>
-          <a href="https://vm.tiktok.com/ZS9RGJyrXqsS5-MbyEo/" target="_blank" aria-label="TikTok" className="social-icon">
+          <a href="https://vm.tiktok.com/ZS9RGJyrXqsS5-MbyEo/" target="_blank" rel="noreferrer" aria-label="TikTok" className="social-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M12 3v10.5a3.5 3.5 0 1 1-3.5-3.5 3.3 3.3 0 0 1 1.8.53V6.2a7.6 7.6 0 0 0 7 3.8v3a10.8 10.8 0 0 1-4-.9v6.9a7.5 7.5 0 1 1-7.5-7.5 7.3 7.3 0 0 1 3 .6V3h3.2z"/>
             </svg>
