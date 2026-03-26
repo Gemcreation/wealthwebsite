@@ -21,8 +21,12 @@ const Hero = () => {
           Expert interior and exterior finishing tailored<br/>for the most discerning homeowners.
         </p>
         <div className="hero-buttons">
-          <button className="btn btn-primary">View Project</button>
-          <button className="btn btn-secondary">Why Wealth</button>
+          <button className="btn btn-primary" onClick={() => window.location.href = '#projects'} >
+            View Project
+          </button>
+          <button className="btn btn-secondary" onClick={() => window.location.href = '#whyUs'} >
+            Why Wealth
+          </button>
         </div>
       </div>
     </section>

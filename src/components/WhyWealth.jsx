@@ -3,7 +3,7 @@ import React from 'react';
 // Why Wealth section highlighting key benefits and guarantees
 const WhyWealth = () => {
   return (
-    <section className="why-wealth container section-padding text-center">
+    <section id="whyUs" className="why-wealth container section-padding text-center">
       <h2 className="section-title">Why Wealth?</h2>
       <p className="section-subtitle">
         We combine traditional craftsmanship with modern luxury standards. <br />So you could enjoy premium experience.

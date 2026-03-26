@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import headerLogo from '../assets/images/WEALTH LOGO.png';
 import headerLogo2 from '../assets/images/WEALTH LOGO2.png';
 
-//wealth interior and exterior project for my bro skill
+//wealth interior and exterior project for my bro construsction work
 // Navbar section to providing primary navigation across the site
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container navbar-content">
         {/* Logo left */}
-        <div className="navbar-brand">
+        <div className="navbar-brand"onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} style={{ cursor: "pointer" }}>
           <img src={headerLogo} className="brand-icon" alt="logo" />
           <span className="brand-text">
             <img src={headerLogo2} className="brand-text" alt="logo" />
